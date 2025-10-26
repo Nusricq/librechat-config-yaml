@@ -2557,6 +2557,8 @@ endpoints:
       titleConvo: true
       titleModel: "deepseek-v3.1:671b-cloud"
       modelDisplayLabel: "Ollama"
+      headers:
+        Authorization: "Bearer ${OLLAMA_API_KEY}"
 
     # ALL IN ONE
     # https://one-hub.ollama.top
