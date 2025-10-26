@@ -2549,7 +2549,7 @@ endpoints:
     # https://ollama.com/cloud
     - name: "Ollama"
       iconURL: "https://ollama.com/public/ollama.png"
-      apiKey: "${OLLAMA_API_KEY}"
+      apiKey: "064fabbecf194da589260a90f72782e5.h8HP-EZtUOwNQ383MRFRcOM6"
       baseURL: "https://ollama.com"
       models:
         default: ["deepseek-v3.1:671b-cloud"]
@@ -2558,7 +2558,7 @@ endpoints:
       titleModel: "deepseek-v3.1:671b-cloud"
       modelDisplayLabel: "Ollama"
       headers:
-        Authorization: "Bearer ${OLLAMA_API_KEY}"
+        Authorization: "Bearer 064fabbecf194da589260a90f72782e5.h8HP-EZtUOwNQ383MRFRcOM6"
 
     # ALL IN ONE
     # https://one-hub.ollama.top
