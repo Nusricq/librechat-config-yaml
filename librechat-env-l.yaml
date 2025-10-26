@@ -2545,6 +2545,46 @@ endpoints:
         - "frequency_penalty"
       modelDisplayLabel: "Perplexity"
 
+    # Ollama
+    # https://ollama.com/cloud
+    - name: "Ollama"
+      iconURL: "https://ollama.com/public/ollama.png"
+      apiKey: "${OLLAMA_API_KEY}"
+      baseURL: "https://ollama.com/v1/"
+      models:
+        default:
+          - deepseek-v3.1:671b-cloud
+          - gpt-oss:20b-cloud
+          - gpt-oss:120b-cloud
+          - kimi-k2:1t-cloud
+          - qwen3-coder:480b-cloud
+          - glm-4.6:cloud
+        fetch: false
+      titleConvo: true
+      titleModel: "deepseek-v3.1:671b-cloud"
+      modelDisplayLabel: "Ollama"
+
+    # ALL IN ONE
+    # https://one-hub.ollama.top
+    - name: "ALL IN ONE"
+      iconURL: "https://one-hub.ollama.top/assets/logo-llWtC-Rj.svg"
+      apiKey: "${OLLAMA_API_KEY}"
+      baseURL: "https://one-hub.ollama.top/v1"
+      models:
+        default:
+          - qiniucloud-claude-4.5-sonnet
+          - qiniucloud-claude-3.5-sonnet
+          - qiniucloud-claude-3.7-sonnet
+          - qiniucloud-claude-3.5-haiku
+          - qiniucloud-claude-4.0-opus
+          - qiniucloud-claude-4.0-sonnet
+          - qiniucloud-claude-4.1-opus
+          - qiniucloud-claude-4.5-haiku
+        fetch: false
+      titleConvo: true
+      titleModel: "deepseek-v3.1:671b-cloud"
+      modelDisplayLabel: "Ollama"
+
     # SambaNova
     # https://cloud.sambanova.ai/apis
     - name: "SambaNova"
