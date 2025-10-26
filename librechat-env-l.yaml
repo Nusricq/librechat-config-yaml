@@ -2552,8 +2552,7 @@ endpoints:
       apiKey: "${OLLAMA_API_KEY}"
       baseURL: "https://ollama.com"
       models:
-        default:
-        - deepseek-v3.1:671b-cloud
+        default: ["deepseek-v3.1:671b-cloud"]
         fetch: true
       titleConvo: true
       titleModel: "deepseek-v3.1:671b-cloud"
