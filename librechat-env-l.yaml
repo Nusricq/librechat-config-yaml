@@ -2550,7 +2550,7 @@ endpoints:
     - name: "Ollama"
       iconURL: "https://ollama.com/public/ollama.png"
       apiKey: "${OLLAMA_API_KEY}"
-      baseURL: "https://ollama.com/v1"
+      baseURL: "https://ollama.com/v1/"
       models:
         default:
         - glm-4.6:cloud
