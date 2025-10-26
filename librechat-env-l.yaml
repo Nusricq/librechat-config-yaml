@@ -2559,7 +2559,7 @@ endpoints:
         - gpt-oss:120b-cloud
         - kimi-k2:1t-cloud
         - qwen3-coder:480b-cloud
-        fetch: false
+        fetch: true
       titleConvo: true
       titleModel: "deepseek-v3.1:671b-cloud"
       modelDisplayLabel: "Ollama"
@@ -2580,7 +2580,7 @@ endpoints:
           - qiniucloud-claude-4.0-sonnet
           - qiniucloud-claude-4.1-opus
           - qiniucloud-claude-4.5-haiku
-        fetch: false
+        fetch: true
       titleConvo: true
       titleModel: "qiniucloud-claude-4.5-sonnet"
       modelDisplayLabel: "ALL IN ONE"
