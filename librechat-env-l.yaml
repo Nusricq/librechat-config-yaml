@@ -2568,7 +2568,7 @@ endpoints:
     # https://one-hub.ollama.top
     - name: "ALL IN ONE"
       iconURL: "https://one-hub.ollama.top/assets/logo-llWtC-Rj.svg"
-      apiKey: "${OLLAMA_API_KEY}"
+      apiKey: "${AIO_API_KEY}"
       baseURL: "https://one-hub.ollama.top/v1"
       models:
         default:
@@ -2582,8 +2582,8 @@ endpoints:
           - qiniucloud-claude-4.5-haiku
         fetch: false
       titleConvo: true
-      titleModel: "deepseek-v3.1:671b-cloud"
-      modelDisplayLabel: "Ollama"
+      titleModel: "qiniucloud-claude-4.5-sonnet"
+      modelDisplayLabel: "ALL IN ONE"
 
     # SambaNova
     # https://cloud.sambanova.ai/apis
